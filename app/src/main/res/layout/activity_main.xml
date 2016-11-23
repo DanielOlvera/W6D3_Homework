@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.daniel.w6d3_homework.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="W6D3_Homework"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="36dp"/>
+    <TextView
+        android:id="@+id/m_menuFragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Dragment"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="36dp"
+        android:onClick="doFragment"
+        android:background="@color/colorPink50"/>
+    <TextView
+        android:id="@+id/m_shrActProvdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Action Provider"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="36dp"
+        android:onClick="doShareAction"
+        android:background="@color/colorPurple50"/>
+    <TextView
+        android:id="@+id/m_spMpArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SparseArrays | ArrayMaps"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="36dp"
+        android:onClick="doArrays"
+        android:background="@color/colorRed50"/>
+</LinearLayout>
